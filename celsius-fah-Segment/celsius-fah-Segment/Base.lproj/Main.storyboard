@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="celsius_fah_Segment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ukq-ST-FUk">
+                                <rect key="frame" x="40" y="94" width="334" height="32"/>
+                                <segments>
+                                    <segment title="Celsius"/>
+                                    <segment title="Fahrenheit"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControlTapped:" destination="BYZ-38-t0r" eventType="valueChanged" id="Crs-q9-rfw"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSB-DR-ihG">
+                                <rect key="frame" x="87" y="175" width="240" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Xsf-pO-d9Z"/>
+                                    <constraint firstAttribute="height" constant="120" id="xCH-KQ-bXV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter temperature" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="leX-yH-8AR">
+                                <rect key="frame" x="40" y="325" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vu0-G1-BeJ">
+                                <rect key="frame" x="80" y="379" width="254" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rJL-0V-QrX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="leX-yH-8AR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="5uS-2Y-1Mj"/>
+                            <constraint firstItem="Vu0-G1-BeJ" firstAttribute="trailing" secondItem="leX-yH-8AR" secondAttribute="trailing" constant="-40" id="7qU-Y9-PWI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="leX-yH-8AR" secondAttribute="trailing" constant="40" id="FLy-nL-XCT"/>
+                            <constraint firstItem="Ukq-ST-FUk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="H25-FI-ke5"/>
+                            <constraint firstItem="Ukq-ST-FUk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="JqV-Ze-Cft"/>
+                            <constraint firstItem="leX-yH-8AR" firstAttribute="top" secondItem="zSB-DR-ihG" secondAttribute="bottom" constant="30" id="Puq-iq-nRO"/>
+                            <constraint firstItem="Vu0-G1-BeJ" firstAttribute="leading" secondItem="leX-yH-8AR" secondAttribute="leading" constant="40" id="QdQ-j5-XkL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ukq-ST-FUk" secondAttribute="trailing" constant="40" id="kKN-Vb-7sJ"/>
+                            <constraint firstItem="zSB-DR-ihG" firstAttribute="top" secondItem="Ukq-ST-FUk" secondAttribute="bottom" constant="50" id="kcF-QT-TbU"/>
+                            <constraint firstItem="zSB-DR-ihG" firstAttribute="centerX" secondItem="Ukq-ST-FUk" secondAttribute="centerX" id="tbo-Xo-C9L"/>
+                            <constraint firstItem="Vu0-G1-BeJ" firstAttribute="top" secondItem="leX-yH-8AR" secondAttribute="bottom" constant="20" id="u7r-gZ-4Ex"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="segmentedControl" destination="Ukq-ST-FUk" id="C8Q-sN-KBf"/>
+                        <outlet property="temperatureLabel" destination="zSB-DR-ihG" id="fqG-2N-gxj"/>
+                        <outlet property="temperatureTextField" destination="leX-yH-8AR" id="qIE-As-ze3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>

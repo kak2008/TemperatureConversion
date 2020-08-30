@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8ED9BEE24F9E24000717EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED9BED24F9E24000717EAD /* AppDelegate.swift */; };
+		F8ED9BF024F9E24000717EAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED9BEF24F9E24000717EAD /* SceneDelegate.swift */; };
+		F8ED9BF224F9E24000717EAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED9BF124F9E24000717EAD /* ViewController.swift */; };
+		F8ED9BF524F9E24000717EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8ED9BF324F9E24000717EAD /* Main.storyboard */; };
+		F8ED9BF724F9E24200717EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8ED9BF624F9E24200717EAD /* Assets.xcassets */; };
+		F8ED9BFA24F9E24200717EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8ED9BF824F9E24200717EAD /* LaunchScreen.storyboard */; };
+		F8ED9C0524F9E24200717EAD /* celsius_fah_SegmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED9C0424F9E24200717EAD /* celsius_fah_SegmentTests.swift */; };
+		F8ED9C1024F9E24200717EAD /* celsius_fah_SegmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED9C0F24F9E24200717EAD /* celsius_fah_SegmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8ED9C0124F9E24200717EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8ED9BE224F9E24000717EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8ED9BE924F9E24000717EAD;
+			remoteInfo = "celsius-fah-Segment";
+		};
+		F8ED9C0C24F9E24200717EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8ED9BE224F9E24000717EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8ED9BE924F9E24000717EAD;
+			remoteInfo = "celsius-fah-Segment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8ED9BEA24F9E24000717EAD /* celsius-fah-Segment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "celsius-fah-Segment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8ED9BED24F9E24000717EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8ED9BEF24F9E24000717EAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F8ED9BF124F9E24000717EAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8ED9BF424F9E24000717EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8ED9BF624F9E24200717EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8ED9BF924F9E24200717EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8ED9BFB24F9E24200717EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8ED9C0024F9E24200717EAD /* celsius-fah-SegmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "celsius-fah-SegmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8ED9C0424F9E24200717EAD /* celsius_fah_SegmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celsius_fah_SegmentTests.swift; sourceTree = "<group>"; };
+		F8ED9C0624F9E24200717EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8ED9C0B24F9E24200717EAD /* celsius-fah-SegmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "celsius-fah-SegmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8ED9C0F24F9E24200717EAD /* celsius_fah_SegmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celsius_fah_SegmentUITests.swift; sourceTree = "<group>"; };
+		F8ED9C1124F9E24200717EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8ED9BE724F9E24000717EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8ED9BFD24F9E24200717EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8ED9C0824F9E24200717EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8ED9BE124F9E24000717EAD = {
+			isa = PBXGroup;
+			children = (
+				F8ED9BEC24F9E24000717EAD /* celsius-fah-Segment */,
+				F8ED9C0324F9E24200717EAD /* celsius-fah-SegmentTests */,
+				F8ED9C0E24F9E24200717EAD /* celsius-fah-SegmentUITests */,
+				F8ED9BEB24F9E24000717EAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8ED9BEB24F9E24000717EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8ED9BEA24F9E24000717EAD /* celsius-fah-Segment.app */,
+				F8ED9C0024F9E24200717EAD /* celsius-fah-SegmentTests.xctest */,
+				F8ED9C0B24F9E24200717EAD /* celsius-fah-SegmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8ED9BEC24F9E24000717EAD /* celsius-fah-Segment */ = {
+			isa = PBXGroup;
+			children = (
+				F8ED9BED24F9E24000717EAD /* AppDelegate.swift */,
+				F8ED9BEF24F9E24000717EAD /* SceneDelegate.swift */,
+				F8ED9BF124F9E24000717EAD /* ViewController.swift */,
+				F8ED9BF324F9E24000717EAD /* Main.storyboard */,
+				F8ED9BF624F9E24200717EAD /* Assets.xcassets */,
+				F8ED9BF824F9E24200717EAD /* LaunchScreen.storyboard */,
+				F8ED9BFB24F9E24200717EAD /* Info.plist */,
+			);
+			path = "celsius-fah-Segment";
+			sourceTree = "<group>";
+		};
+		F8ED9C0324F9E24200717EAD /* celsius-fah-SegmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8ED9C0424F9E24200717EAD /* celsius_fah_SegmentTests.swift */,
+				F8ED9C0624F9E24200717EAD /* Info.plist */,
+			);
+			path = "celsius-fah-SegmentTests";
+			sourceTree = "<group>";
+		};
+		F8ED9C0E24F9E24200717EAD /* celsius-fah-SegmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8ED9C0F24F9E24200717EAD /* celsius_fah_SegmentUITests.swift */,
+				F8ED9C1124F9E24200717EAD /* Info.plist */,
+			);
+			path = "celsius-fah-SegmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8ED9BE924F9E24000717EAD /* celsius-fah-Segment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8ED9C1424F9E24200717EAD /* Build configuration list for PBXNativeTarget "celsius-fah-Segment" */;
+			buildPhases = (
+				F8ED9BE624F9E24000717EAD /* Sources */,
+				F8ED9BE724F9E24000717EAD /* Frameworks */,
+				F8ED9BE824F9E24000717EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "celsius-fah-Segment";
+			productName = "celsius-fah-Segment";
+			productReference = F8ED9BEA24F9E24000717EAD /* celsius-fah-Segment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8ED9BFF24F9E24200717EAD /* celsius-fah-SegmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8ED9C1724F9E24200717EAD /* Build configuration list for PBXNativeTarget "celsius-fah-SegmentTests" */;
+			buildPhases = (
+				F8ED9BFC24F9E24200717EAD /* Sources */,
+				F8ED9BFD24F9E24200717EAD /* Frameworks */,
+				F8ED9BFE24F9E24200717EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8ED9C0224F9E24200717EAD /* PBXTargetDependency */,
+			);
+			name = "celsius-fah-SegmentTests";
+			productName = "celsius-fah-SegmentTests";
+			productReference = F8ED9C0024F9E24200717EAD /* celsius-fah-SegmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8ED9C0A24F9E24200717EAD /* celsius-fah-SegmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8ED9C1A24F9E24200717EAD /* Build configuration list for PBXNativeTarget "celsius-fah-SegmentUITests" */;
+			buildPhases = (
+				F8ED9C0724F9E24200717EAD /* Sources */,
+				F8ED9C0824F9E24200717EAD /* Frameworks */,
+				F8ED9C0924F9E24200717EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8ED9C0D24F9E24200717EAD /* PBXTargetDependency */,
+			);
+			name = "celsius-fah-SegmentUITests";
+			productName = "celsius-fah-SegmentUITests";
+			productReference = F8ED9C0B24F9E24200717EAD /* celsius-fah-SegmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8ED9BE224F9E24000717EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Anish Kodeboyina";
+				TargetAttributes = {
+					F8ED9BE924F9E24000717EAD = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F8ED9BFF24F9E24200717EAD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F8ED9BE924F9E24000717EAD;
+					};
+					F8ED9C0A24F9E24200717EAD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F8ED9BE924F9E24000717EAD;
+					};
+				};
+			};
+			buildConfigurationList = F8ED9BE524F9E24000717EAD /* Build configuration list for PBXProject "celsius-fah-Segment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8ED9BE124F9E24000717EAD;
+			productRefGroup = F8ED9BEB24F9E24000717EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8ED9BE924F9E24000717EAD /* celsius-fah-Segment */,
+				F8ED9BFF24F9E24200717EAD /* celsius-fah-SegmentTests */,
+				F8ED9C0A24F9E24200717EAD /* celsius-fah-SegmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8ED9BE824F9E24000717EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ED9BFA24F9E24200717EAD /* LaunchScreen.storyboard in Resources */,
+				F8ED9BF724F9E24200717EAD /* Assets.xcassets in Resources */,
+				F8ED9BF524F9E24000717EAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8ED9BFE24F9E24200717EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8ED9C0924F9E24200717EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8ED9BE624F9E24000717EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ED9BF224F9E24000717EAD /* ViewController.swift in Sources */,
+				F8ED9BEE24F9E24000717EAD /* AppDelegate.swift in Sources */,
+				F8ED9BF024F9E24000717EAD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8ED9BFC24F9E24200717EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ED9C0524F9E24200717EAD /* celsius_fah_SegmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8ED9C0724F9E24200717EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ED9C1024F9E24200717EAD /* celsius_fah_SegmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8ED9C0224F9E24200717EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8ED9BE924F9E24000717EAD /* celsius-fah-Segment */;
+			targetProxy = F8ED9C0124F9E24200717EAD /* PBXContainerItemProxy */;
+		};
+		F8ED9C0D24F9E24200717EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8ED9BE924F9E24000717EAD /* celsius-fah-Segment */;
+			targetProxy = F8ED9C0C24F9E24200717EAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8ED9BF324F9E24000717EAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8ED9BF424F9E24000717EAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8ED9BF824F9E24200717EAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8ED9BF924F9E24200717EAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8ED9C1224F9E24200717EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8ED9C1324F9E24200717EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8ED9C1524F9E24200717EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4M82R9CY7;
+				INFOPLIST_FILE = "celsius-fah-Segment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anish.celsius-fah-Segment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8ED9C1624F9E24200717EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4M82R9CY7;
+				INFOPLIST_FILE = "celsius-fah-Segment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anish.celsius-fah-Segment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8ED9C1824F9E24200717EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4M82R9CY7;
+				INFOPLIST_FILE = "celsius-fah-SegmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anish.celsius-fah-SegmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/celsius-fah-Segment.app/celsius-fah-Segment";
+			};
+			name = Debug;
+		};
+		F8ED9C1924F9E24200717EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4M82R9CY7;
+				INFOPLIST_FILE = "celsius-fah-SegmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anish.celsius-fah-SegmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/celsius-fah-Segment.app/celsius-fah-Segment";
+			};
+			name = Release;
+		};
+		F8ED9C1B24F9E24200717EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4M82R9CY7;
+				INFOPLIST_FILE = "celsius-fah-SegmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anish.celsius-fah-SegmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "celsius-fah-Segment";
+			};
+			name = Debug;
+		};
+		F8ED9C1C24F9E24200717EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4M82R9CY7;
+				INFOPLIST_FILE = "celsius-fah-SegmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anish.celsius-fah-SegmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "celsius-fah-Segment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8ED9BE524F9E24000717EAD /* Build configuration list for PBXProject "celsius-fah-Segment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8ED9C1224F9E24200717EAD /* Debug */,
+				F8ED9C1324F9E24200717EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8ED9C1424F9E24200717EAD /* Build configuration list for PBXNativeTarget "celsius-fah-Segment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8ED9C1524F9E24200717EAD /* Debug */,
+				F8ED9C1624F9E24200717EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8ED9C1724F9E24200717EAD /* Build configuration list for PBXNativeTarget "celsius-fah-SegmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8ED9C1824F9E24200717EAD /* Debug */,
+				F8ED9C1924F9E24200717EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8ED9C1A24F9E24200717EAD /* Build configuration list for PBXNativeTarget "celsius-fah-SegmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8ED9C1B24F9E24200717EAD /* Debug */,
+				F8ED9C1C24F9E24200717EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8ED9BE224F9E24000717EAD /* Project object */;
+}
